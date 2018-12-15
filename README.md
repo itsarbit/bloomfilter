@@ -34,7 +34,6 @@ Long test with given word list:
 PASS
 coverage: 91.7% of statements
 ok  	/bloomfilter	0.841s
-
 ```
 
 # Reference
