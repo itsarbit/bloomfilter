@@ -32,6 +32,8 @@ func NewKVStore() KVStore {
 
 // localStore implements in memory storage with KVStore interface.
 // TODO: kvstore can also be implemented by bit slice
+// TODO: in order to scale, we can also use 3rd party kv storage to store
+// such as, Redis, Cassandra
 type localStore struct {
 	m map[string][]byte
 	// TODO: add mutex to handle map read/write lock
